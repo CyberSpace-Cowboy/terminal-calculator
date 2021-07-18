@@ -10,7 +10,7 @@ It's implemented in the most trivial way possible:
 2. You can type your calculations using '+', '-', '*', '/', '^' operators
 3. You can exit the program at any time by typing 'exit' or 'exit' and then hit Enter
 
-To run this stupid little program you should open the terminal at the same directory as your Notes.py program, and then type:
+To run this stupid little program you should open the terminal at the same directory as your Calculator.py program, and then type:
 ```
 python Calculator.py  
 ```
