@@ -1,17 +1,15 @@
 #Python Terminal Calculator
+import shutil
+columns = shutil.get_terminal_size().columns
 
-print("				   Basic Terminal Calculator")
-menu = """						Menu:
-			To add: +
-			To subtract: -
-			To multiply: *
-			To devide: /
-			To raise to the power: ^
+print("\n" + "BASIC TERMINAL CALCULATOR".center(columns) + "\n")
 
-			To exit the program type: stop/exit + [Enter] 
-"""
+print("To add: +".center(columns))
+print("To subtract: -".center(columns))
+print("To multiply: *".center(columns))
+print("To devide: /".center(columns))
+print("To raise to the power: ^".center(columns) + "\n")
 
-print(menu)
 
 def Calculate():
 	while(True):
